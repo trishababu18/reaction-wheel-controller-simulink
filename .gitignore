@@ -1,1 +1,22 @@
+# MATLAB / Simulink autosave and cache
+slprj/
+*.asv
+*.autosave
+*.slxc
+*.slx.r* 
+*.mdl.r*
+
+# Simulink code generation
+*_ert_rtw/
+*_grt_rtw/
+*.rtw
+*.c
+*.h
+
+# MAT files (optional: keep parameter .mat if needed)
+*.mat
+
+# OS
+.DS_Store
+Thumbs.db
 
