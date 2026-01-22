@@ -10,6 +10,22 @@ Redesigned a spacecraft reaction wheel attitude controller in Simulink to accoun
 - Optional command feedforward
 - Comparative evaluation across four control scenarios
 
+## Model & Results
+
+### Simulink Model Overview
+![Simulink Overview](media/simulink_overview.png)
+
+### Tracking Performance
+![Tracking](media/tracking_step.png)
+
+### Actuator Saturation Behavior
+![Torque Saturation](media/torque_saturation.png)
+![Momentum Saturation](media/momentum_saturation.png)
+
+### Scenario Comparison
+![Scenario Comparison](media/scenario_comparison.png)
+
+
 ## Reaction Wheel Constraints (RWP015)
 - Max torque: **4 mNm**
 - Max momentum: **15 mNms**
